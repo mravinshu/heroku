@@ -6,7 +6,7 @@ app.get("/", function (req, res) {
 });
 
 app.get("/aalu", function (req, res) {
-    res.send("Aalu is a good dog");
+    res.send("Ice Cream says Hey!");
 })
 
 app.listen(process.env.PORT || 5000);
